@@ -1,7 +1,8 @@
-# AndroidTV_Control
+# AndroidTV Control
 A bash script providing a bunch of functions to control your TV based on ADB.
 
 This script provides a rich set of functions allowing to control your Android TV (and other Android based devices like the amazon Fire TV stick - may also work with other Android based device types) .
+
 Basicly it uses ADB to send commands to the TV. In case of using it on a Raspberry Pi this means that you have to get and compile ADB for ARM. You also need to enable ADB connections on the TV in the settings menu (developer settings, e.g. FireTV) or running the appropirate java app. Check the Internet for more details. You should set the option to remember the pairing, otherwise you need to allow the connect each time you use the script. A new pairing is required any time you change the "calling device".
 The target scenario is the integration with openHAB - a smart home gateway, but could also be integrated in any other scenario. I use it to switch on/off the TV, select channels, start NETFLIX etc.
 
